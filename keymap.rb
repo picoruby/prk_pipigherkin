@@ -23,18 +23,18 @@ kbd.add_layer :default, %i(
 )
 kbd.add_layer :raise, %i(
   KC_EXLM   KC_AT     KC_HASH     KC_DLR    KC_PERC    KC_CIRC    KC_AMPR   KC_ASTER  KC_EQUAL  KC_PLUS
-  KC_LABK   KC_LCBR   KC_LBRACKET KC_LPRN   KC_QUOTE   KC_DQUO    KC_GRAVE  KC_TILD   KC_COLON  KC_SCOLON
+  KC_LABK   KC_LCBR   KC_LBRACKET KC_LPRN   KC_MINUS   KC_LEFT    KC_DOWN   KC_UP     KC_RIGHT  KC_BSPACE
   KC_RABK   KC_RCBR   KC_RBRACKET KC_RPRN   ADJUST     ENT_RAISE  KC_BSLASH KC_COMMA  KC_DOT    KC_SLASH
 )
 kbd.add_layer :adjust, %i(
-  KC_F1     KC_F2     KC_F3       KC_F4     KC_F5      KC_F6      KC_F7     KC_F8     KC_F9    KC_F10
-  KC_F11    KC_F12    KC_MINUS    KC_ASTER  KC_SLASH   KC_LEFT    KC_DOWN   KC_UP     KC_RIGHT KC_DELETE
-  KC_ESCAPE KC_EQUAL  KC_LALT     KC_LCTL   UNLOCK     UNLOCK     KC_RCTL   KC_RALT   KC_DOT   KC_ESCAPE
+  KC_F1     KC_F2     KC_F3       KC_F4     KC_F5      KC_F6      KC_F7     KC_F8     KC_F9     KC_F10
+  KC_F11    KC_F12    KC_QUOTE    KC_DQUO   KC_MINUS   KC_LEFT    KC_DOWN   KC_UP     KC_RIGHT  KC_DELETE
+  KC_ESCAPE KC_LGUI   KC_LALT     KC_LCTL   UNLOCK     UNLOCK     KC_RCTL   KC_RALT   KC_RGUI   KC_ESCAPE
 )
 kbd.add_layer :lower, %i(
   KC_1      KC_2      KC_3        KC_4      KC_5       KC_6       KC_7      KC_8      KC_9      KC_0
-  KC_TAB    KC_PLUS   KC_MINUS    KC_ASTER  KC_SLASH   KC_LEFT    KC_DOWN   KC_UP     KC_RIGHT  KC_DELETE
-  KC_LSFT   KC_ESCAPE KC_LALT     KC_LCTL   SPC_LOWER  ADJUST     KC_RCTL   KC_RALT   KC_ESCAPE KC_RSFT
+  KC_TAB    KC_NO     KC_QUOTE    KC_DQUO   KC_MINUS   KC_GRAVE   KC_TILD   KC_PIPE   KC_COLON  KC_SCOLON
+  KC_ESCAPE KC_LGUI   KC_LALT     KC_LCTL   SPC_LOWER  ADJUST     KC_RCTL   KC_RALT   KC_RGUI   KC_RSFT
 )
 #
 #                   Your custom    Keycode or                          Keycode (only modifiers)    Release time     Re-push time
